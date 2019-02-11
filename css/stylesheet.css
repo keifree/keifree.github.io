@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body */
+body {
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+  background-color: white;
+}
+.container {
+  width: 640px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-radius: 30px;
+}
+.btn {
+  text-decoration: none;
+  color:inherit;
+  padding:2px;
+  border-radius: 5px;
+  text-align: center;
+}
+li > .btn {
+  background-color: white;
+}
+.btn:hover {
+  opacity:0.7;
+  color:blue;
+}
+.cover {
+  background:url("../img/bg.png");
+  background-size: cover;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding:4px 8px;
+}
+/* a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: blue;
+} */
+/* header */
+header .container {
+  position: relative;
+}
+header h1 {
+  color: gray;
+  font-size: 48px;
+  padding: 20px;
+}
+header span {
+  color: red;
+  font-size: 24px;
+  padding-left: 12px;
+  font-weight: normal;
+}
+header p {
+  padding-left: 90px;
+}
+header img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.current {
+  border-bottom: 4px solid royalblue;
+}
+/* main */
+.features  {
+  width:640px;
+  background-color:#F3FFD8;
+  margin: 0 auto;
+  padding: 5px 5px;
+  border-radius: 18px;
+}
+.feature > img {
+  width:30%;
+  padding:10px;
+}
+.features >h1 {
+  display: inline-block;
+  font-size: 30px;
+  padding:10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.one > p {
+  font-size: 18px;
+  width: 90%;
+  background-color: #ffc;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.feature .one {
+  width: 40%;
+}
+
+.feature:nth-of-type(odd) .one {
+  float: right;
+  padding-right: 20px;
+
+}
+
+.feature:nth-of-type(even) .one {
+  float: left;
+  padding-left: 20px;
+}
+.feature {
+  margin:5px;
+  border-top: 2px dotted black;
+}
+
+/* footer */
+footer {
+  border-top:2px solid black;
+  width: 640px;
+  margin:20px auto;
+  padding-top: 20px;
+  /* margin:10px; */
+}
+/* footer p {
+  padding:5px;
+  color: gray;
+  float:right;
+} */
+footer > a{
+  border:1px solid blue;
+  background-color:DodgerBlue;
+}
+footer > i {
+  float:right;
+  color: gray;
+}
